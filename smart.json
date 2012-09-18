@@ -1,6 +1,6 @@
 {
-  "name": "router",
-  "description": "A Reactive Router for multipage apps",
+  "name": "crypto-base",
+  "description": "Base Package for Crypto.js, standard secure algorithms",
   "homepage": "https://github.com/tmeasday/meteor-crypto-base",
   "author": "Tom Coleman <tom@thesnail.org>",
   "version": "0.0.1",
