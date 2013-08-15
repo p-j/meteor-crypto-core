@@ -4,5 +4,6 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.add_files('crypto.js', ['client', 'server']);
-  api.export('CryptoJS');
+  if(api.export)
+    api.export('CryptoJS');
 });
