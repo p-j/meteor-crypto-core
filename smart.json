@@ -1,7 +1,7 @@
 {
   "name": "crypto-base",
   "description": "Base package for CryptoJS, standard secure crypto algorithms",
-  "homepage": "https://github.com/tmeasday/meteor-crypto-base",
+  "homepage": "https://github.com/oortcloud/meteor-crypto-base",
   "author": "Tom Coleman <tom@thesnail.org>",
   "version": "3.1.2.0",
   "git": "https://github.com/tmeasday/meteor-crypto-base.git",
