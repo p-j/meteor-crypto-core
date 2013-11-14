@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Base Package for Crypto.js, standard secure algorithms"
+  summary: "Base package for CryptoJS, standard secure crypto algorithms"
 });
 
 Package.on_use(function (api) {
