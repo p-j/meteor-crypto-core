@@ -12,5 +12,13 @@ Usage
 -----
 
 On its own, this package won't be very helpful. Add a specific crypto
-package like [crypto-md5](https://atmosphere.meteor.com/package/crypto-md5)
-or [crypto-sha1](https://atmosphere.meteor.com/package/crypto-sha1).
+package like :
+
+- [meteor-crypto-md5](https://github.com/p-j/meteor-crypto-md5)
+- [meteor-crypto-sha1](https://github.com/p-j/meteor-crypto-sha1)
+- [meteor-crypto-sha256](https://github.com/p-j/meteor-crypto-sha256)
+- [meteor-crypto-base64](https://github.com/p-j/meteor-crypto-base64)
+
+Other related package : 
+
+- [meteor-crypto-hmac](https://github.com/p-j/meteor-crypto-hmac)
