@@ -4,10 +4,19 @@ Package.describe({
 	git: 'https://github.com/p-j/meteor-crypto-core.git'
 });
 
-Package.on_use(function (api) {
+Package.onUse(function (api) {
 	api.versionsFrom('METEOR@0.9.0');
-	api.add_files('crypto.js', ['client', 'server']);
+	api.add_files('lib/core.js', ['client', 'server']);
 	if (api.export) {
 		api.export('CryptoJS');
 	}
+});
+
+Package.onTest(function (api) {
+	api.use([
+		'jparker:crypto-core@3.1.2',
+		'tinytest'
+	], ['client', 'server']);
+
+	api.addFiles('tests/tests.js', ['client', 'server']);
 });
