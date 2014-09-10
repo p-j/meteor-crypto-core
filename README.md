@@ -1,11 +1,11 @@
-Base package for CryptoJS, JavaScript implementations of standard
+Base package for [CryptoJS](https://code.google.com/p/crypto-js/), JavaScript implementations of standard
 and secure cryptographic algorithms.
 
 More at https://code.google.com/p/crypto-js/
 
 Files
 -----
-* `crytpto.js` - `core.js` renamed, with the `CryptoJS` variable scoped globally
+* `lib/core.js`, with the `CryptoJS` variable scoped globally
 
 
 Usage
