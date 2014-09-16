@@ -38,3 +38,8 @@ On its own, this package won't be very helpful. Add a specific crypto package li
 Other related package : 
 
 - [`jparker:crypto-hmac`](https://github.com/p-j/meteor-crypto-hmac)
+
+Credits
+-------
+
+Based on [Dan Dascalescu's and Tom Coleman's work](https://github.com/oortcloud/meteor-crypto-base)
