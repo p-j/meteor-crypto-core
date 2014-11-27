@@ -3,6 +3,8 @@ and secure cryptographic algorithms.
 
 More at https://code.google.com/p/crypto-js/
 
+[![Build Status](https://travis-ci.org/p-j/meteor-crypto-core.svg)](https://travis-ci.org/p-j/meteor-crypto-core)
+
 Files
 -----
 * `lib/core.js`, with the `CryptoJS` variable scoped globally
